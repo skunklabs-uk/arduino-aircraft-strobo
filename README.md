@@ -62,8 +62,8 @@ Il ritiro autorizzato è completato: Application e namespace risultano
 assenti dopo la [PR Homelab #1311](https://github.com/skunklabs-uk/homelab/pull/1311).
 DNS, Access e il solo ingresso tunnel temporaneo sono stati rimossi;
 lo state OpenTofu e le fonti operative sono aggiornati. Il workflow,
-Dockerfile e ignore temporanei sono ritirati da questo branch; il branch
-producer sarà eliminato dopo il merge, conservando artifact e prove.
+Dockerfile e ignore temporanei sono ritirati; artifact e prove sono
+conservati. Il branch temporaneo segue il lifecycle della PR di closeout.
 L’utente è stato avvisato prima del teardown. Il
 [README runtime Homelab](https://github.com/skunklabs-uk/homelab/blob/main/gitops/apps/developer-workspace/README.md)
 resta il riferimento per il collegamento seriale.
